@@ -5,7 +5,7 @@ from flask import jsonify
 app = Flask(__name__)
 
 
-@app.route('/fetch')
+@app.route('/')
 def facilityy():
 	resp = "this is code"
 	return resp
